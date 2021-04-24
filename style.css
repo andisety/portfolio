@@ -1,0 +1,22 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #bfe6e6;
+  height: 100vh;
+  position: relative;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    background-color: black !important;
+  }
+}
