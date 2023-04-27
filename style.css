@@ -1,0 +1,97 @@
+html{
+  scroll-behavior: smooth !important;
+}
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #bfe6e6;
+  height: 100vh;
+  position: relative;
+}
+.awal .nama{
+  font-size: 80px;
+color: #17e2e2;
+-webkit-text-stroke-color: rgb(78, 75, 75);
+-webkit-text-stroke-width: 4px;
+}
+#profile {
+  padding-top: 5rem;
+  background-color: #bfe6e6;
+  height: 100vh;
+  position: relative;
+}
+.wave {
+  margin-top: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#typing {
+  width: auto;
+  color: #676767;
+  float: left;
+  font-size: 70px;
+  margin: 0 auto;
+  padding: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 7s steps(24) 1s infinite;
+}
+
+#typing span {
+  color: #000000;
+}
+
+#crow {
+  float: left;
+  margin-top: 10px;
+  color: #000000;
+  font-size: 70px;
+  animation: crow 0.5s linear 0s infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 1024px;
+  }
+}
+
+@keyframes crow {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 576px) {
+  @keyframes typing {
+      from {
+        width: 0;
+      }
+  
+      to {
+        width: 576px;
+      }
+    }
+  .navbar {
+    background-color: black !important;
+  }
+  #typing{
+    font-size: 30px;
+  }
+    #crow {
+      font-size: 50px;
+    }
+    
+}
